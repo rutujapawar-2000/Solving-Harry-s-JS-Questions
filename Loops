@@ -12,6 +12,11 @@ for (let i = 0; i < n; i++){
 sum += (i + 1)
 }
 console.log("Sum of first " + n + " natural numbers is " + sum)
+//Print the multiplication table of a 3
+const number = 3;
+for (let i = 1; i <= 10; i++) {
+console.log(`${number} * ${i} = ${number * i}`)
+}
 
 // For...in loop
 // Print all keys and values of an object
