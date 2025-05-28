@@ -39,6 +39,7 @@ Prasad: 90
 for (let key in obj){
 console.log("Marks of " + key + " are " + obj[key])
 }
+
 // For...of loop
 // Print each character of a string using for...of loop
 const name = "Riya";
