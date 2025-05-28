@@ -56,9 +56,19 @@ for (let num of numbers) {
 //Print numbers from 0 to n using a while loop. Get n from the user.
 let n = prompt("Enter the value of n");
 n = Number.parseInt(n)
-
 let i =0;
 while(i <= n){
 console.log(i);
 i++;
 }
+// Reverse the digits of a number using a while loop
+let num = prompt("Enter a number to reverse:");
+num = Number.parseInt(num);
+let reversed = 0;
+while (num > 0) {
+  let digit = num % 10;           // Get last digit
+  reversed = reversed * 10 + digit; // Append digit in reverse order
+  num = Math.floor(num / 10);     // Remove last digit
+}
+console.log("Reversed number is:", reversed);
+
