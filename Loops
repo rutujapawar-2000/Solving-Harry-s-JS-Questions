@@ -51,3 +51,14 @@ const numbers = [10, 20, 30];
 for (let num of numbers) {
   console.log(num);
 }
+
+//While loop
+//Print numbers from 0 to n using a while loop. Get n from the user.
+let n = prompt("Enter the value of n");
+n = Number.parseInt(n)
+
+let i =0;
+while(i <= n){
+console.log(i);
+i++;
+}
