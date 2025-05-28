@@ -1,0 +1,48 @@
+// Loops
+// For loop
+//Program to print first 10 Natural numbers
+for (let i = 1; i <= 10; i++){
+console.log("Number:", i);
+} 
+// Program to add first n Natural Numbers
+let sum = 0
+let n = prompt("Enter the value of n");
+n = Number.parseInt(n)
+for (let i = 0; i < n; i++){
+sum += (i + 1)
+}
+console.log("Sum of first " + n + " natural numbers is " + sum)
+// For...in loop
+// Print all keys and values of an object
+const person = {
+name: "Rutuja",
+age:25,
+city: "Pune"
+};
+for (let key in person) {
+console.log(key + ":", person[key]);
+}
+// Print names and marks from an object
+let obj = {
+Rutuja: 50,
+Rutik: 60,
+Neha: 70,
+Minal: 80,
+Prasad: 90
+}
+for (let key in obj){
+console.log("Marks of " + key + " are " + obj[key])
+}
+// For...of loop
+// Print each character of a string using for...of loop
+const name = "Riya";
+
+for (let char of name) {
+  console.log(char);
+}
+// Print each value of an array using for...of loop?
+const numbers = [10, 20, 30];
+
+for (let num of numbers) {
+  console.log(num);
+}
