@@ -72,3 +72,5 @@ while (num > 0) {
 }
 console.log("Reversed number is:", reversed);
 
+// Do...while loop
+
