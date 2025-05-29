@@ -107,4 +107,10 @@ function greetUser(name) {
 }
 greetUser(userName);
 
+//Arrow Function
+//Write an arrow function that takes two numbers as arguments and returns their sum. Call the function with values 5 and 3, and print the result.
+const add = (a, b) => a + b;
+console.log(add(5, 3));
+
+
 
