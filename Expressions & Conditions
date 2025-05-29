@@ -1,6 +1,5 @@
 // A basic program to explore SWITCH Statement
 let dayNumber = prompt("Enter a number between 1 to 7 to know the day:");
-
 switch (dayNumber) {
   case "1":
     alert("Sunday");
