@@ -90,5 +90,21 @@ i++;
 }while(i <= 10)
 
 // Functions
-//
+// Calculate 1 plus the average of two numbers using a function
+function onePlusAvg(x,y){
+return 1 + (x + y) / 2
+}
+let a = 10;
+let b = 20;
+let c = 30;
+console.log("one plus average of a and b is ", onePlusAvg(a, b));
+console.log("one plus average of b and c is ", onePlusAvg(b, c))
+
+//Write a function that greets the user using their name taken from prompt()
+let userName = prompt("Enter your name:");
+function greetUser(name) {
+  console.log("Hello, " + name + "!");
+}
+greetUser(userName);
+
 
