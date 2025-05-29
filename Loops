@@ -73,6 +73,7 @@ while (num > 0) {
 console.log("Reversed number is:", reversed);
 
 // Do...while loop
+// Print numbers from 10 to n using do...while loop
 let n = prompt("Enter a value of n");
 n = Number.parseInt(n);
 let i = 10;
