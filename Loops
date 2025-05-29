@@ -81,3 +81,13 @@ do{
 console.log(i)
 i++;
 }while (i < n)
+
+// Print numbers from 1 to 10 using a do...while loop
+let i = 1;
+do {
+console.log(i);
+i++;
+}while(i <= 10)
+
+
+
