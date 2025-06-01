@@ -136,3 +136,5 @@ let student = keys[i];
 console.log("Marks of " + student + " are " + obj[student]);
 }
 
+// Write a program in 
+
