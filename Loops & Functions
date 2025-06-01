@@ -151,6 +151,7 @@ let correctNum = 21;
 let i
 while (i != correctNum) {
 i = prompt("Enter a correct number")
+console.log("Try again")
 }
 console.log("You have entered a correct number")
 
