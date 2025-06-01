@@ -150,8 +150,8 @@ for (let student in obj) {
 let correctNum = 21;
 let i
 while (i != correctNum) {
-i = prompt("Enter a correct number")
 console.log("Try again")
+i = prompt("Enter a correct number")
 }
 console.log("You have entered a correct number")
 
