@@ -123,5 +123,16 @@ greetUser(userName);
 const add = (a, b) => a + b;
 console.log(add(5, 3));
 
-
+// Loops and Functions Practice Questions
+// write a program to print the marks of a student in an object using for loop. obj = { harry: 98, rohan: 70, akash: 86}
+const obj = {
+harry: 98,
+rohan: 70,
+akash: 86
+}
+const keys = Object.keys(obj);
+for (let i = 0; i < keys.length; i++) {
+let student = keys[i];
+console.log("Marks of " + student + " are " + obj[student]);
+}
 
