@@ -26,6 +26,13 @@ let text = "JavaScript Is FUN";
 let lower = text.toLowerCase();
 console.log("Lowercase version:", lower);
 
+// Extract the amount of this string "Please give Rs 1000"
+let str = "Please give Rs 1000";
+let amount = str.split("Rs ")[1];
+amount = Number.parseInt(amount);
+console.log("Extracted amount is:", amount);
+
+
 
 
 
