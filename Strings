@@ -21,6 +21,12 @@ let filename = "report.pdf";
 console.log(filename.endsWith(".pdf"));  // true
 console.log(filename.endsWith(".doc"));  // false
 
+// Problem 2: Write a program that takes a string and prints it in all lowercase letters using toLowerCase()
+let text = "JavaScript Is FUN";
+let lower = text.toLowerCase();
+console.log("Lowercase version:", lower);
+
+
 
 
 
