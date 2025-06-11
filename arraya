@@ -6,3 +6,57 @@ for (let i = 0; i < numbers.length; i++) {
   console.log(numbers[i]);
 }
 
+// Arraya's methods
+// toString()
+// Convert an array to a comma-separated string
+let colors = ["red", "green", "blue"];
+let colorString = colors.toString();
+console.log(colorString);
+
+// join()
+// Join array elements with a custom separator
+let fruits = ["apple", "banana", "cherry"];
+let result = fruits.join(" - ");
+console.log(result);
+
+// pop()
+// Remove the last item from an array
+let cities = ["Mumbai", "Delhi", "Pune", "Chennai"];
+cities.pop();
+console.log(cities);
+
+// push()
+// Add new items to the end of an array
+let languages = ["JavaScript", "TypeScript"];
+languages.push("HTML", "CSS");
+console.log(languages);
+
+// shift()
+// Remove the first item from an array
+let queue = ["first", "second", "third"];
+queue.shift();
+console.log("Updated queue:", queue);
+
+// unshift()
+// Add an item at the beginning of an array
+let books = ["Book B", "Book C"];
+books.unshift("Book A");
+console.log(books);
+
+//delete()
+// Remove a value from an array using delete
+let numbers = [1, 2, 3, 4];
+delete numbers[1];
+console.log(numbers);
+console.log(numbers.length); 
+
+// 
+
+
+
+
+
+
+
+
+
