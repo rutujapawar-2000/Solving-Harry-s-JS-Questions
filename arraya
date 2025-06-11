@@ -50,7 +50,42 @@ delete numbers[1];
 console.log(numbers);
 console.log(numbers.length); 
 
-// 
+// concat()
+// Merge two arrays into one
+let fruits = ["apple", "banana"];
+let vegetables = ["carrot", "spinach"];
+let food = fruits.concat(vegetables);
+console.log(food);
+
+// sort()
+// Sort an array of numbers in ascending order
+let numbers = [5, 20, 1, 100];
+numbers.sort((a, b) => a - b);
+console.log("Sorted numbers:", numbers);
+
+// splice()
+// Replace an item in an array using splice()
+let colors = ["red", "green", "blue", "yellow"];
+colors.splice(1, 1, "purple");
+console.log(colors);
+
+// slice()
+// Extract a portion of an array using slice()
+let fruits = ["apple", "banana", "mango", "orange", "grapes"];
+let tropicalFruits = fruits.slice(1, 4);
+console.log("Original fruits:", fruits);
+console.log("Tropical fruits:", tropicalFruits);
+
+// reverse()
+// Reverse the order of elements in an array
+let nums = [10, 20, 30];
+let reversedNums = nums.slice().reverse();
+console.log(nums);
+console.log(reversedNums);
+
+
+
+
 
 
 
