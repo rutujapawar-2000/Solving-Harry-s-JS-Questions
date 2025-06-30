@@ -83,19 +83,36 @@ let reversedNums = nums.slice().reverse();
 console.log(nums);
 console.log(reversedNums);
 
-// For loop in array
+// For loop in an array
 // Write a program to print all elements of an array using a for loop.
 let fruits = ["apple", "banana", "mango"];
 for (let i = 0; i < fruits.length; i++) {
   console.log(fruits[i]);
 }
 
-// forEach loop in array
+// forEach loop in an array
 // Write a program to print all elements of an array using the forEach() method.
 let fruits = ["apple", "banana", "mango"];
 fruits.forEach(fruit => {
   console.log(fruit);
 });
+
+// for...of loop in an array
+// Write a program to print all elements of an array using the for...of loop.
+let colors = ["red", "green", "blue"];
+for (let color of colors) {
+  console.log(color);
+}
+
+// for...in loop in an array
+// Write a program to print all indexes and values of an array using the for...in loop.
+let numbers = [10, 20, 30];
+for (let index in numbers) {
+  console.log("Index:", index, "Value:", numbers[index]);
+}
+
+
+
 
 
 
