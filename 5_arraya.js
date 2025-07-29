@@ -111,6 +111,12 @@ for (let index in numbers) {
   console.log("Index:", index, "Value:", numbers[index]);
 }
 
+// map() in an array
+//Write a program to create a new array by doubling each element of a given array using the map() method.
+let numbers = [1, 2, 3, 4, 5];
+let numDouble =numbers.map(num => num * 2);
+console.log(numDouble);
+
 
 
 
